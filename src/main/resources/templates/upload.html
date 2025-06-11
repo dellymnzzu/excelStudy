@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Excel 업로드</title></head>
+<body>
+<form th:action="@{/upload}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file"/>
+    <button type="submit">업로드</button>
+</form>
+</body>
+</html>
